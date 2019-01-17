@@ -1,4 +1,4 @@
-# reset-password-sarasa
+# reset-password
 
 a [Sails v1](https://sailsjs.com) application
 
@@ -24,4 +24,20 @@ This app was originally generated on Thu Jan 17 2019 14:41:23 GMT-0300 (-03) usi
 <!--
 Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
 -->
+
+APIs to reset and recover password. POC developed with Sails JS
+
+Install Sails JS globally:
+`npm install sails -g`
+
+Go to the repo directory and install its modules
+`cd reset-password && npm i`
+
+Run the app, which will run on your port 1337:
+`sails lift`
+
+And hit any of the endpoints defined on the dictionary on routes.js from your frontend application.
+
+More documentation to come.
+
 
